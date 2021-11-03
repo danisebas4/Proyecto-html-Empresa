@@ -6,9 +6,52 @@ nav{
     top: 0;
     display: flex;
     align-items: center;
-    background-color: #CBCBCB;
+    background-color:cornsilk;
     width: 100%;
     font-size: 30px;
+}
+h1{
+    padding: 50px 10px 5px 100px;
+}
+label{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight: bold;
+    padding-right: 10px;
+    display: inline-block;
+    width: 300px;
+    vertical-align: top;
+}
+.boton{
+    width:400px;
+    height: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    
+}
+input[type="text"], input[type="email"], select{
+    width: 400px;
+    height: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    border-radius: 10px;
+}
+input[type="radio"]{
+    width: 50px;
+    height: 20px;
+}
+textarea{
+    width: 400px;
+    height: 400px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    border-radius: 10px;
+}
+.container{
+    text-align: center;
+}
+.filas{
+    padding: 10px 10px 10px 50px;
 }
 body{
     margin: 100px 0px 0px 0px;
@@ -49,8 +92,19 @@ section{
     height: 3px;
     background: #333;
 }
+.logo{
+    background: url(/Imagenes/LogoTemporal.jpg) no-repeat 80% 80%;
+    background-size: contain;
+    width: 180px;
+    height: 80px;
+    float: left;
+}
+
 @media only screen and (max-width: 800px){
- 
+    .col-25, .col-75, input[type=submit], input[type=reset]  {
+        width: 100%;
+        margin-top: 0;
+      }
     nav {
         overflow: visible;
     }
